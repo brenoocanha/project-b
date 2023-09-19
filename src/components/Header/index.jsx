@@ -12,26 +12,28 @@ export function Header() {
   }, [])
 
   return (
-    <header className="mobile:h-22 tablet:h-24 bg-secondary-color">
+    <header className="mobile:h-22 tablet:h-24 bg-secondary-color font-chivo">
       <div className="mx-auto px-4 flex justify-between">
-        <div className="flex items-center">
-          <img src={logo} alt="Logo barber" className="w-16 tablet:w-24" />
-          <span className="text-white text-3xl tablet:text-5xl font-lobster whitespace-nowrap">
-            Barber Shop
-          </span>
-        </div>
+        <Link to="/">
+            <div className="flex items-center">
+            <img src={logo} alt="Logo barber" className="w-16 tablet:w-24" />
+            <span className="text-white text-3xl tablet:text-5xl font-lobster whitespace-nowrap">
+                Barber Shop
+            </span>
+            </div>
+        </Link>
         <nav className="hidden tablet:flex text-white items-center">
           <ul className="flex text-lg laptop:text-xl items-center">
-            <li className="mr-2 hover:text-red-200 transition-all">
+            <li className="mr-2 hover:text-primary-color transition-all duration-500">
               <Link to="/">Home</Link>
             </li>
-            <li className="ml-2 mr-2 hover:text-red-200 transition-all">
+            <li className="ml-2 mr-2 hover:text-primary-color transition-all  duration-500">
               <Link to="/galeria">Galeria</Link>
             </li>
-            <li className="ml-2 mr-2 hover:text-red-200 transition-all">
+            <li className="ml-2 mr-2 hover:text-primary-color transition-all  duration-500">
               <Link to="/sobre">Sobre</Link>
             </li>
-            <li className="ml-4 hover:text-gray-300 transition-all bg-primary-color p-2 rounded">
+            <li className="ml-4 hover:opacity-80 transition-all  duration-500 bg-primary-color p-2 rounded">
               <Link to="/agendamento">Agendamento</Link>
             </li>
           </ul>
