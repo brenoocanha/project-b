@@ -1,11 +1,15 @@
 import { Link } from "react-router-dom";
 import { Offcanvas, initTE } from "tw-elements";
+import { useEffect } from "react";
 
 import logo from "../../assets/logo-barber.png";
 import { HiBars4, HiXMark } from "react-icons/hi2";
 
 export function Header() {
-  initTE({ Offcanvas });
+
+  useEffect(() => {
+    initTE({ Offcanvas });
+  }, [])
 
   return (
     <header className="mobile:h-22 tablet:h-24 bg-secondary-color">
