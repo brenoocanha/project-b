@@ -12,7 +12,7 @@ export function Header() {
   }, [])
 
   return (
-    <header className="mobile:h-22 tablet:h-24 bg-secondary-color font-chivo">
+    <header className="mobile:h-22 tablet:h-24 bg-secondary-color font-chivo z-50 fixed w-[100%]">
       <div className="mx-auto px-4 flex justify-between">
         <Link to="/">
             <div className="flex items-center">

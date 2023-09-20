@@ -12,7 +12,7 @@ import {
 
 export function Footer() {
   return (
-    <footer className="text-center tablet:text-left bg-secondary-color tablet:h-[18.75rem] text-white py-6 tablet:py-12 px-4 desktop:px-0">
+    <footer className="text-center tablet:text-left bg-secondary-color tablet:h-[18.75rem] text-white py-6 tablet:py-12 px-4 desktop:px-0 z-50 ">
       <div className="flex flex-col tablet:flex-row justify-between items-center laptop:container mx-auto">
         <div className="flex flex-col gap-2 order-3 tablet:order-1"> {/* 1 */}
           <div className="flex flex-col gap-2">

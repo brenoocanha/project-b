@@ -45,6 +45,9 @@ export default {
         "primary-color": "var(--primary-color)",
         "secondary-color": "var(--secondary-color)"
       },
+      backgroundImage: {
+        'barber-hero': "url('/src/assets/barber1.webp')",
+      },
     },
   },
   plugins: [
