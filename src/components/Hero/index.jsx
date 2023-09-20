@@ -29,7 +29,7 @@ export function Hero() {
           </div>
         </div>
         <div className="w-[100%] desktop:max-w-[50%] hidden desktop:block">
-          <img src={barber1} alt="Corte de cabelo" className="bg-center" />
+          <img src={barber1} alt="Corte de cabelo" className="bg-center rounded-3xl"/>
         </div>
       </div>
     </>
