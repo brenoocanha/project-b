@@ -13,7 +13,7 @@ export function Header() {
 
   return (
     <header className="mobile:h-22 tablet:h-24 bg-secondary-color font-chivo z-50 fixed w-[100%]">
-      <div className="mx-auto px-4 flex justify-between">
+      <div className="mx-auto px-4 flex justify-between max-w-[1280px]">
         <Link to="/">
             <div className="flex items-center">
             <img src={logo} alt="Logo barber" className="w-16 tablet:w-24" />
