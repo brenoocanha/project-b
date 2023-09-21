@@ -3,10 +3,10 @@ import { Link } from "react-router-dom";
 import barber1 from "../../assets/barber1.webp";
 import scissors from "../../assets/scissors.svg";
 
-export function Hero() {
+export function SHero() {
   return (
     <>
-      <div className="flex-col desktop:flex-row flex justify-between bg-secondary-color max-w-[1280px] mx-auto">
+      <div className="flex-col desktop:flex-row flex justify-between bg-secondary-color max-w-[1280px] mx-auto py-20">
         <div className="py-30 tablet:py-40 w-[100%] desktop:max-w-[50%] bg-barber-hero bg-no-repeat bg-center bg-cover desktop:bg-secondary-color desktop:bg-none  flex flex-col items-center justify-center p-8 desktop:p-0">
           <div className="bg-secondary-color p-20 opacity-90 flex flex-col items-center tablet:items-start desktop:pl-0">
             <img
