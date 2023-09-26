@@ -1,4 +1,4 @@
-import { Router } from "./router";
+import { Router } from "./router.jsx";
 import { BrowserRouter } from "react-router-dom";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
