@@ -5,15 +5,15 @@ import barber2 from '../../assets/barber2.webp';
 export function SAbout() {
   return (
     <>
-      <div className="flex-col desktop:flex-row flex justify-between max-w-[1280px] mx-auto py-20">
+      <div className="flex-col items-center desktop:flex-row flex justify-between max-w-[1280px] mx-auto py-10 desktop:py-20">
         <div className="flex justify-around w-full">
-          <div className="before:flex before:h-full before:bg-primary-color before:w-[2px] before:rounded-full pr-12">
+          <div className="hidden desktop:block before:flex before:h-full before:bg-primary-color before:w-[2px] before:rounded-full pr-12">
           </div>
-          <div className="overflow-hidden shadow-2xl">
+          <div className="overflow-hidden shadow-2xl mb-24 desktop:mb-0 mx-4 desktop:mx-0">
             <img src={barber2} alt="Imagem barber" className="rounded hover:scale-105 transition-all duration-500 ease-in-out"/>
           </div>
         </div>
-        <div className="w-[100%] max-w-[50%]">
+        <div className="w-[100%] max-w-[80%] desktop:max-w-[50%]">
           <ul className="font-chivo text-lg flex flex-col gap-8 text-black">
             <li className="flex gap-4 items-start">
               <div className="flex">
